@@ -65,3 +65,29 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
+
+.image-gallery {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.image-gallery figure {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    background-color: #25233a;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-gallery figcaption {
+    margin-top: 10px;
+    color: white;
+    font-size: 0.95em;
+}
