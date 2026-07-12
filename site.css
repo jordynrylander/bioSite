@@ -131,3 +131,27 @@ footer {
     font-style: italic;
     color: #f5f5f5;
 }
+
+.hobby-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 25px 0;
+    border-bottom: 1px solid #3a3850;
+}
+
+.hobby-section:last-child {
+    border-bottom: none;
+}
+
+.hobby-text {
+    flex: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .hobby-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
